@@ -1,0 +1,15 @@
+{
+  "name": "rogue-wave-scanner",
+  "version": "2.0.0",
+  "description": "Real-time stock scanner — S&P 500, NASDAQ, Russell 2000",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node scanner.js"
+  },
+  "dependencies": {
+    "twilio": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
