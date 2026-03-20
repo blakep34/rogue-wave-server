@@ -1,0 +1,16 @@
+{
+  "name": "rogue-wave-alert-server",
+  "version": "1.0.0",
+  "description": "TradingView → SMS alert relay for the Market Wave strategy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
